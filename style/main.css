@@ -331,5 +331,122 @@ transform: translateY(var(--m)) translateZ(0);
 
 
 
+#about {
+    display: flex;
+flex-direction: column;
+gap: 100px;
+}
+
+.about-title {
+    font-size: 24px;
+font-weight: 700;
+margin-bottom: 30px;
+}
+.about-item {
+    display: flex;
+align-items: center;
+gap: 84px;
+color: white;
+}
+
+.about-item img {
+    border-radius: 10px;
+    height: 400px;  
+}
+
+.df {
+    background-color: rgba(27, 78, 94, 0.616);
+    border-radius: 10px ;
+}
+#ty {
+    font-size: 18px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+    width: 416px;
+} 
+
+.prise {
+    display: flex;
+    justify-content: space-between;
+}
+.prise::before {
+    content: url(../style/img/decore-blue.svg);
+    position: absolute;
+    margin-left: -40px;
+    }
+.price-picture {
+    color: #fff;
+    text-align: center;
+    font-size: 21px;
+}
+.mapq {
+    height: 690px;
+}
+.mapw {
+background: rgba(1, 138, 190, 1);
+width: 392px;
+height: 290px;
+border-radius: 10px;
+color: #fff;
+display: flex;
+padding: 20px;
+flex-direction: column;
+font-size: 14px;
 
 
+
+}
+#kl {
+    display: flex;
+    gap: 48px;
+    
+}
+.mape {
+    background: rgba(1, 138, 190, 1);
+    width: 392px;
+    height: 290px;
+    border-radius: 10px;
+    color: #fff;
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+    font-size: 14px;
+    
+
+}
+
+.cv {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    border-bottom: #0188be00 solid 2px;
+    transition: all .1s linear;
+}
+.cv a:hover {
+    border-bottom: #018ABE solid 2px;
+}
+
+.cv {
+    background-color: #fff;
+    border-radius: 3px;
+    padding: 9px 15px;
+width: 155px;
+    font-size: 17px;
+    color: #018ABE;
+}
+
+.cv:hover {
+    filter: brightness(1.2);
+}
+
+.cv:active {
+    filter: brightness(1);
+}
+footer {
+    color: #fff;
+font-size: 15px;
+
+
+}
